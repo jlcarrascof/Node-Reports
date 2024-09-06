@@ -1,8 +1,8 @@
-# Ejecutar en Dev
+# Run in Dev
 
-1. Clonar el repositorio.
-2. Instalar dependencias `npm install`.
-3. Clonar `env.template` y renombrar a `.env`.
-4. Levantar la base de datos `docker-compose up -d`.
-5. Generar el Prisma client `npx prisma generate`.
-6. Ejecutar el proyecto `npm run start:dev`.
+1. Clone the repository.
+2. Install dependencies with `npm install`.
+3. Clone `env.template` and rename it to `.env`.
+4. Start the database with `docker-compose up -d`.
+5. Generate the Prisma client with `npx prisma generate`.
+6. Run the project with `npm run start:dev`.
